@@ -14,6 +14,7 @@ again every command listed will report PROJECT_ID, replace it with the one of yo
 ## Domains
 Since load balancer require a domain to be correctly configured I would like to start from a domain registration from google domains.
 `https://console.cloud.google.com/net-services/domains/registrations/list?referrer=search&project=PROJECT_ID`
+Create a new domain ( I've choosen a .dev domain ).
 
 
 
