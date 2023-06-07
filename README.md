@@ -16,9 +16,12 @@ Since load balancer require a domain to be correctly configured I would like to 
 `https://console.cloud.google.com/net-services/domains/registrations/list?referrer=search&project=PROJECT_ID`
 Create a new domain ( I've choosen a .dev domain ).
 
+## Identity Aware Proxy
+It let you to manage user access to Load balancer managed backends or App Engine, Compute Engine, GKE. It creates a central authorization layer for application accessed by HTTPS.
+IAP uses a JWT Token to ensure you are authorized to access the application.
 
-
-
+## Serverless VPC Access
+You can use a Serverless VPC Access connector to connect your serverless environment directly to your Virtual Private Cloud (VPC) network, allowing access to Compute Engine virtual machine (VM) instances, Memorystore instances, and any other resources with an internal IP address.
 
 1. abilitare le api cloud dns
 2. registrare un dominio, nel mio caso a11dev.dev, registrato utilizzando il servizio di google domains `https://console.cloud.google.com/net-services/domains/registrations/create?project=PROJECT_ID`
